@@ -220,6 +220,7 @@ div#sea {
 }
 .step-2 .giftbox .box {
   animation: flyDown 0.2s ease-in 0.05s forwards;
+  
 }
 
 @keyframes wobble {

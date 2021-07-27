@@ -1,0 +1,102 @@
+h1 {
+    color: orangered;
+    font-size: 35px;
+}
+body{
+    background-color: rgb(227, 227, 227);
+}
+
+#loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(84, 66, 88);
+    opacity: 0;
+}
+
+img{
+    width: 350px;
+}
+/* //227 */
+
+/* 3*3 Grid */
+#b1, #b2, #b3, #b4, #b5, 
+#b6, #b7, #b8, #b9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 6px;
+    font-size: 18px;
+    text-align: center;
+    /* color: transparent; */
+}
+
+/* 251 174 65 , 62 171 108, 84 66 88*/
+
+.rev{
+    background: url(./alyssa.png) no-repeat scroll 17px -2px;
+    color: transparent;
+}
+
+.b_rev{
+    
+    background: url(./bot.png) no-repeat scroll 17px -1px;
+    color: transparent;
+    background-size: 50px 55px;
+}
+
+/* Reset Button */
+#but {
+    box-sizing: border-box;
+    width: 85px;
+    height: 35px;
+    border: 1px solid rgb(62, 171, 108);
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(62, 171, 108);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* Player turn space */
+#print {
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif;
+
+    color: rgb(248, 146, 2);
+    font-size: 20px;
+    position: relative;
+}
+
+span{
+    position: absolute;
+    margin-left: 10px;
+}
+
+.y_score{
+    margin-left: 27px;
+}
+
+
+/* Main Contianer */
+#main {
+    text-align: center;
+    position: relative;
+    opacity: 0;
+}
+
+/* Game Instruction Text */
+#ins {
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif;
+          
+    color: rgb(243, 146, 11);
+    font-size: 17px;
+}
